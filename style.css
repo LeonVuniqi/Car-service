@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.container {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+
+header {
+    background-image: url("https://i.postimg.cc/s2633DVn/car-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: calc(100vh - 102px);
+}
+
+.content {
+    font-size: 2rem;
+    margin: auto;
+    max-width: 100%;
+}
+
+.content h1 {
+    color: #00c2ff;
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+    font-family:Arial;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+}
+
+nav li a {
+    color: white;
+    padding: 1rem;
+   ;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: #00c2ff;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer strong {
+    color: #00c2ff;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .content {
+        margin: 2rem auto 0;
+        font-size: 1.4rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        color:aliceblue
+    }
+
+    nav li:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    nav .highlight {
+        display: none;
+    }
+
+    footer ul {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    footer li {
+        margin: 1rem;
+        text-align: center;
+    }
+}
+.navi{
+    background-color:
+    font-style: italic;
+    text-shadow: #00c2ff;
+    text-transform:uppercase;
+    font-size:17px;
+    padding:7px;
+    border-radius:3px;
+
+
+
+}
+.header1{
+    background-image: url(""https://i.postimg.cc/s2633DVn/car-bg.jpg"")
+     align-items: flex-start;
+    min-height: calc(100vh - 102px);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+
+}
+.box{
+    float:left;
+    width:33.33%;
+    padding: 5px;
+    display:table;
+}
+.foto6{
+    width:90px
+}
+.foto7{
+    width:90px
+}
+.box3{
+    display: flex;
+}
+.foto8{
+    width:20px;
+}
+.fotot{
+
+
+
+
+
+}
+.box3{
+    
+}
